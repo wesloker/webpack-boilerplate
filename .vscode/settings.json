@@ -1,17 +1,40 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "editor.wordWrap": "on",
-    "workbench.colorTheme": "Monokai",
-    "window.zoomLevel": -2,
-    "editor.renderWhitespace": "all",
-    "editor.minimap.enabled": true,
-    "editor.renderControlCharacters": false,
-    "files.autoSave": "off",
-    "editor.tabSize": 2,
-    "markdown.preview.breaks": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "terminal.integrated.rendererType": "dom",
-    "files.exclude": {
-        "**/.git": false
-    },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Monokai",
+  "window.zoomLevel": -2,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": true,
+  "editor.renderControlCharacters": false,
+  "files.autoSave": "off",
+  "editor.tabSize": 2,
+  "markdown.preview.breaks": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.rendererType": "dom",
+  "files.exclude": {
+      "**/.git": false
+  },
+  "auto-rename-tag.activationOnLanguage": [
+      "html",
+      "xml",
+      "php",
+      "javascript"
+  ],
+  "bracketPairColorizer.activeScopeCSS": [
+      "borderStyle : solid",
+      "borderWidth : 1px",
+      "borderColor : red; opacity: .5"
+  ],
+  "bracketPairColorizer.consecutivePairColors": [
+      "()",
+      "[]",
+      "{}",
+      ["<","</"],
+      ["<","/>"],
+  [
+      "White"
+  ],
+  "Red"
+  ],
 }
+
